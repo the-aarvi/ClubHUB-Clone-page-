@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="prfstyle.css">
+    
+    <script src="https://kit.fontawesome.com/bf2313f3e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!---------------  Navigation Bar  ------------------>
+    <nav>
+        <div class="nav-left">
+            <a href="Homepage.html"> <img src="images/logo.png" class="logo" alt="Logo"> </a>    <!--replace '#'' with homepage web-->
+            <ul>
+                <li><a href="#"><img src="images/notification.png" alt=""></a></li>  
+                <li><a href="#"><img src="images/inbox.png" alt=""></a></li>
+            </ul>
+    
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+    
+            </div>
+            <div class="nav-user-icon " onclick="settingsMenutoggle()">
+                <img src="images/profile-pic.jpg" alt="">
+    
+            </div>
+
+        <!------------------- Sttings-menu----------------------->
+    
+            <div class="settings-menu">
+
+                <div class="settings-menu-inner">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.jpg" alt="">
+                        <div>
+                            <p>Badal Raj</p>
+                            <a href="Profile.html">See your profile</a>   <!--here I'll replace # with profile page-->
+                        </div>
+                    </div>
+
+                    <div class="setting-links">
+                        <img src="images/setting.png" class="settings-icon" alt="">
+                        <a href="#">Settings and Privacy <img src="images/arrow.png" width="10px"></a>
+    
+                    </div>
+                    <div class="setting-links">
+                        <img src="images/help.png" class="settings-icon" alt="">
+                        <a href="#">Help and Support <img src="images/arrow.png" width="10px"></a>
+    
+                    </div>
+
+                    <div class="setting-links">
+                        <img src="images/logout.png" class="settings-icon" alt="">
+                        <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+    
+                    </div>
+    
+                </div>
+    
+    
+    
+            </div>
+    
+    
+        </div>
+    
+    
+    
+    </nav>
+    <!-- --------------------------Navigation Bar Ends ----------------------------->
+
+
+
+
+    <!-- --------------------------Prfile Page Starts ----------------------------->
+
+    <div class="profile-container">
+        <img src="images/cover.jpg" class="cover-img">
+
+
+        <div class="profile-details">
+
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile-pic.jpg" class="pd-img" alt="">
+                    <div>
+                        <h3>Badal Raj</h3>
+                        <p>UI UX designer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pd-right">
+
+                <button type="button"><img src="images/follow.png" alt=""> Follow </button>
+                <button type="button"> <img src="images/message.png" alt=""> Messege</button>
+    
+
+
+            </div>
+
+
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>About</h3>
+                    <p class="intro-text">Believe in yourself and you can do unbelievable things.</p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-study.png" alt="">Studying at IIT Patna</li>
+                        <li><img src="images/profile-study.png" alt="">Went to New Horizon School</li>
+                        <li><img src="images/profile-home.png" alt="">Lives in Patna, Bihar</li>
+                        <li><img src="images/profile-location.png" alt="">From Bhagalpur, Bihar</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="">All Friends</a>
+                    </div>
+                    <p>65 (10 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="images/profile-pic.jpg"><p>Akash Kr</p></div>
+                        <div><img src="images/profile-pic.jpg"><p>Kajal patel</p></div>
+                        <div><img src="images/profile-pic.jpg"><p>Ritu Ranjan</p></div>
+                        <div><img src="images/profile-pic.jpg"><p>Rishu Raj</p></div>
+                        <div><img src="images/profile-pic.jpg"><p>Shubham Kr</p></div>
+                        <div><img src="images/profile-pic.jpg"><p>Amarjeet</p></div>
+                        <div><img src="images/profile-pic.jpg"><p>Udit Sharma</p></div>
+                        <div><img src="images/profile-pic.jpg"><P>Priyanshu S</P></div>
+                        <div><img src="images/profile-pic.jpg"><p>Shubhanshu</p></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.jpg" alt="">
+                        <div>
+                            <p>Badal Raj</p>
+                            <span>June 14 2024, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="Whats on your mind?"></textarea>
+                        <div class="add-post-link">
+                            <a href="#"><img src="images/photo1.png" alt="">Photo</a>
+                            <a href="#"><img src="images/video1.png" alt="">Video</a>
+                            <a href="#"><img src="images/event.png" alt="">Event</a>
+                            <a href="#"><img src="images/article.png" alt="">Write an article</a>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.jpg" alt="">
+                            <div>
+                                <p>Badal Raj</p>
+                                <span>June 14 2024, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+
+                    <p class="post-text">Consectetur adipisicing elit. Enjoing the Life at Fullest. Reprehenderit maxime cum asperiores ab accusamus cupiditate eligendi, velit error officiis? Eligendi? </p>
+                    <img src="images/feed-image-1.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png" >56</div>
+                            <div><img src="images/comments.png" >9</div>
+                            <div><img src="images/share.png" ></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--post-2-->
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.jpg" alt="">
+                            <div>
+                                <p>Badal Raj</p>
+                                <span>June 14 2024, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Consectetur adipisicing elit. Enjoing the Life at Fullest. Reprehenderit maxime cum asperiores ab accusamus cupiditate eligendi, velit error officiis? Eligendi? </p>
+                    <img src="images/feed-image-1.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png" >56</div>
+                            <div><img src="images/comments.png" >9</div>
+                            <div><img src="images/share.png" ></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--post-3-->
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.jpg" alt="">
+                            <div>
+                                <p>Badal Raj</p>
+                                <span>June 14 2024, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Consectetur adipisicing elit. Enjoing the Life at Fullest. Reprehenderit maxime cum asperiores ab accusamus cupiditate eligendi, velit error officiis? Eligendi? </p>
+                    <img src="images/feed-image-1.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png" >56</div>
+                            <div><img src="images/comments.png" >9</div>
+                            <div><img src="images/share.png" ></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+        
+
+
+
+
+    </div>
+
+    
+<script src="script.js"></script>    
+</body>
+</html>
